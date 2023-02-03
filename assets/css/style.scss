@@ -2,3 +2,19 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+header {
+  img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  p {
+    text-align: center;
+  }
+  p.view {
+    text-align: left;
+  }
+}
